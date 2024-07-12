@@ -13,8 +13,7 @@ class Circle:
         return 2 * math.pi * my.radius
 
     def get_circumference(my):
-        return my.get_perimeter()  # Circumference is the same as perimeter for a circle
-
+        return my.get_perimeter()  
 
 circle = Circle(int(input("Enter x-coordinate: ")),int(input("Enter y-coordinate: ")),int(input("Enter Radius: ")))
 print(f"Area: {circle.get_area()}")
